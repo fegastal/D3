@@ -1,15 +1,16 @@
-aside{
+aside {
     grid-area: aside;
 }
 
-body{
+body {
     display: grid;
+    cursor: url("../images/kunai_icon.png"), default;
     grid-template-areas: 'navbar navbar navbar navbar'
                          'header header header aside'
                          'section section section aside'
                          'footer footer footer footer';
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 8vh 25vh 60vh 10vh; 
+    grid-template-rows: 8vh 30vh 60vh 10vh; 
     margin: 0;              
 }
 
@@ -18,10 +19,12 @@ footer {
 }
 
 header {
+    background-image: url("../images/naruto_geral.jpg");
     grid-area: header;
+    background-size: cover;
 }
 
-nav{
+nav {
     align-items: center;
     background-color: #383b32;
     display: flex;
@@ -38,8 +41,10 @@ nav a {
 
 }
 
-nav a:hover{
+nav a:hover {
     color: #bb2127;
+    cursor: url("../images/kunai_icon.png"), default;
+
 
 
 }
