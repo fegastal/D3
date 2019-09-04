@@ -13,18 +13,42 @@ body{
     margin: 0;              
 }
 
-footer{
+footer {
     grid-area: footer;
 }
 
 header {
-    grid-area:header;
+    grid-area: header;
 }
 
 nav{
+    align-items: center;
+    background-color: #383b32;
+    display: flex;
+    justify-content: space-around;
     grid-area: navbar;
+    font-family: 'Permanent Marker', cursive;
+
+
 }
 
-section{
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+nav a:hover{
+    color: #bb2127;
+
+
+}
+
+nav > img {
+    width: 45px;
+
+}
+
+section {
     grid-area: section;
 }
