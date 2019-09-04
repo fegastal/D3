@@ -38,6 +38,11 @@ body {
     margin: 0;              
 }
 
+body::-webkit-scrollbar {
+    width: 0px; /*Remove scrollbar space*/
+    background: transparent; /*Optional: just make scrollbar invisible */
+}
+
 footer {
     grid-area: footer;
 }
