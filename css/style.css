@@ -1,7 +1,31 @@
 aside {
     grid-area: aside;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #282a25f0;
 }
 
+aside p {
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+aside h2 {
+    text-align: center;
+    text-align: justify;
+}
+aside h2, aside p {
+    color: white;
+    padding: 0 15px;
+}
+
+aside ul {
+    list-style-image: url("../images/akatsuki_cloud_menor.png");
+}
+
+aside ul li {
+    color: white;
+
+}
 body {
     display: grid;
     cursor: url("../images/kunai_icon.png"), default;
@@ -10,7 +34,7 @@ body {
                          'section section section aside'
                          'footer footer footer footer';
     grid-template-columns: 25vw 25vw 25vw 25vw;
-    grid-template-rows: 8vh 30vh 60vh 10vh; 
+    grid-template-rows: 11vh 60vh 75vh 10vh; 
     margin: 0;              
 }
 
@@ -56,4 +80,8 @@ nav > img {
 
 section {
     grid-area: section;
+}
+
+ul {
+
 }
